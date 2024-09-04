@@ -1,4 +1,4 @@
-import { CalendarDateRangeIcon } from '@heroicons/react/24/solid'
+
 import { ArrowRightIcon } from '@heroicons/react/24/solid'
 const OrdersCard = ({ totalPrice, totalProducts }) => {
 

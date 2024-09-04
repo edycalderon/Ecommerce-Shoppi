@@ -12,28 +12,6 @@ const Home = () => {
     const context = useContext(ShoppingCartContex)
 
     const renderView = () => {
-        // if (context.setSearcheBiteTitle?.length > 0) {
-        //     if (context.filterItem?.length > 0) {
-        //         return (
-        //             context.filterItem?.map((item) => (
-        //                 <Card key={item.id} data={item} />
-        //             ))
-        //         )
-        //     }else{
-        //         return(
-        //             <div>
-        //                 No Se Encontraron Coincidencias
-        //             </div>
-        //         )
-        //     }
-        // }else{
-        //     return(
-        //         context.items?.map((item) => (
-        //             <Card key={item.id} data={item}/>
-        //         ))
-        //     )
-        // }
-    
 
 
         if (context.filterItem?.length > 0) {
