@@ -81,7 +81,6 @@ export const ShoppingCartProvider = ({ children }) => {
 
     return (
         <ShoppingCartContex.Provider value={{
-            filterItem,
             setSearcheCategori,
             filterItem,
             searcheBiteTitle,
